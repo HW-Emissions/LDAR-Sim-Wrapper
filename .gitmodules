@@ -1,0 +1,3 @@
+[submodule "LDAR_Sim"]
+	path = LDAR_Sim
+	url = https://github.com/LDAR-Sim/LDAR_Sim.git
