@@ -1,0 +1,8 @@
+program_set_name: DEMO- Alt-LDAR Comparison - ZA
+parameter_level: 'global'
+n_simulations: 2
+start_date: [2022, 1, 1]
+end_date: [2026, 12, 31]
+baseline_program: P_none
+pregenerate_leaks: True
+preseed_random: False

@@ -1,0 +1,18 @@
+consider_daylight: True
+coverage:
+  spatial: 1
+  temporal: 1
+deployment_type: stationary
+is_follow_up: False
+label: M_Continuous
+measurement_scale: site
+n_crews: 1
+parameter_level: 'method'
+reporting_delay: 2
+sensor:
+  type: default
+  MDL: [0.527]
+version: '2.0'
+cost:
+  per_day: 5
+  upfront: 500

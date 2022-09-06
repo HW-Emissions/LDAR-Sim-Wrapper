@@ -1,0 +1,22 @@
+consider_daylight: True
+coverage:
+  spatial: 1
+  temporal: 1
+cost:
+  per_site: 100
+deployment_type: mobile
+is_follow_up: False
+label: M_Air
+max_workday: 8
+measurement_scale: site
+n_crews: 1
+parameter_level: 'method'
+reporting_delay: 2
+sensor:
+  type: default
+  MDL: [0.791]
+version: '2.0'
+RS: 4
+time: 1
+t_bw_sites:
+  vals: [5]

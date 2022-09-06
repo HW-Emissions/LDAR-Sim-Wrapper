@@ -1,0 +1,22 @@
+consider_daylight: True
+coverage:
+  spatial: 1
+  temporal: 1
+deployment_type: mobile
+is_follow_up: False
+label: M_OGI_4x
+max_workday: 8
+measurement_scale: component
+n_crews: 1
+parameter_level: 'method'
+reporting_delay: 2
+sensor:
+  type: OGI_camera_zim
+  MDL: [0.24, 0.39]
+version: '2.0'
+RS: 4
+time: 120
+t_bw_sites:
+  vals: [30]
+cost:
+  per_site: 600

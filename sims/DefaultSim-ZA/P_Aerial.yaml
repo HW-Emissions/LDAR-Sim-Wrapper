@@ -1,0 +1,16 @@
+program_name: P_Air
+parameter_level: program
+version: '2.0'
+site_samples: 100
+method_labels:
+- M_Air
+- M_OGI_FollowUp
+emissions:
+  consider_venting: False
+  LPR: 0.0065
+  max_leak_rate: 100000
+  leak_dist_params: [-1.79, 2.17]
+NRd: 365
+weather_is_hourly: True
+subtype_file: subtype_ex.csv
+infrastructure_file: facilities_alberta-ex.csv
