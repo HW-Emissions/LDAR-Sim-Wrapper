@@ -72,7 +72,6 @@ if __name__ == '__main__':
     in_dir = get_abs_path(sim_params['input_directory'], wrap_dir)
     out_dir = get_abs_path(sim_params['output_directory'], wrap_dir)
     programs = sim_params.pop('programs')
-    json.dump(json.dumps(programs), open(cache_dir / "programs.json", "w"))
     # --- Run Checks ----
     check_ERA5_file(in_dir, programs)
     has_ref = ref_program in programs
