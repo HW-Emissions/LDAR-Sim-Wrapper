@@ -1,0 +1,12 @@
+# Ignore
+*.iml
+*.xml
+*.pyc
+*.vscode
+*.nc
+!ERA5_2017_2019_Perm.nc
+*.p
+sims/
+inputs/
+.cache/
+outputs/
