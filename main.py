@@ -121,14 +121,14 @@ if __name__ == '__main__':
     prog_sites = sites_process(sim_outputs, cache_dir)
     json.dump(prog_sites.to_json(), open(cache_dir / "sites.json", "w"))
 
-    meta = {
-        'n_sites': len(sim_outputs[0]['sites']),
-        'n_days': len(sim_outputs[0]['timeseries']),
-        'n_leaks': len(sim_outputs[0]['leaks']),
-        'pregen_leaks': sim_params['pregenerate_leaks'],
-        'reference_program': sim_params['reference_program'],
-        'baseline_program': sim_params['baseline_program']}
-    pickle.dump(meta, open(cache_dir / "meta.p", "wb"))
+    # meta = {
+    #     'n_sites': len(sim_outputs[0]['sites']),
+    #     'n_days': len(sim_outputs[0]['timeseries']),
+    #     'n_leaks': len(sim_outputs[0]['leaks']),
+    #     'pregen_leaks': sim_params['pregenerate_leaks'],
+    #     'reference_program': sim_params['reference_program'],
+    #     'baseline_program': sim_params['baseline_program']}
+    # pickle.dump(meta, open(cache_dir / "meta.p", "wb"))
 
     # Write program metadata
     metadata = open(out_dir / '_metadata.txt', 'w')
